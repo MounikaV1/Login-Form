@@ -9,6 +9,7 @@ import { SignupComponent } from './signup/signup.component';
 import { EmployeeDashboardComponent } from './employee-dashboard/employee-dashboard.component';
 import { FormsModule,ReactiveFormsModule} from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http';
+import { VijayComponent } from './vijay/vijay.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     RizComponent,
     LoginComponent,
     SignupComponent,
-    EmployeeDashboardComponent
+    EmployeeDashboardComponent,
+    VijayComponent
   ],
   imports: [
     BrowserModule,
